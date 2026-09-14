@@ -13,3 +13,21 @@ percentage = (float) userScore / maxScore * 100.0;
 
 */
 
+#include <stdio.h>
+
+int main(){
+    // setting highest score in game
+    int maxScore = 500;
+
+    // user's actual score
+    int userScore = 423;
+
+    //calculating user score percentage
+    float percentage = (float) userScore/maxScore *100.0f;
+
+    // printing percentage 2 digit float value
+    printf("User's Percentage: %.2f\n", percentage);
+
+
+    return 0;
+}
