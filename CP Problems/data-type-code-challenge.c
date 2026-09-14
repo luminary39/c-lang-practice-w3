@@ -10,14 +10,14 @@ Print all three values using printf (use the correct format specifiers).
 
 int main(){
     //student id in int
-    int student_id = 203560;
+    int studentID = 203560;
     // score in float
     float score = 3.39;
     // grade in char
     char grade = 'B';
 
     //printing everything with correct specifier
-    printf("Student ID: %d", student_id);
+    printf("Student ID: %d", studentID);
     printf("\nScore: %.2f", score);
     printf("\nGrade: %c", grade);
 
