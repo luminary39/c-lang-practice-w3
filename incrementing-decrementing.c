@@ -3,7 +3,7 @@
 int main(){
     int peopleInroom = 0;
 
-    // 3 people entered
+    // 4 people entered
     peopleInroom++;
     peopleInroom++;
     peopleInroom++;

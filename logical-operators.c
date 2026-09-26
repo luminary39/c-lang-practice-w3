@@ -12,19 +12,5 @@ int main(){
     printf("\nUser is Admin - %d", isAdmin);
     printf("\nJust a regular NPC! - %d", !isLoggedin && !isAdmin);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }

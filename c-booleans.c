@@ -34,8 +34,5 @@ int main(){
     bool isGreater = x>y;
 
     printf("%d", isGreater);
-
-
- 
     return 0;
 }
