@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+// int main(){
+//     int i = 0;
+
+//     while (i<5){
+//         printf("%d\n", i);
+//         i++;
+//     }
+
+
+//     return 0;
+// }
+
+int main(){
+
+    int countdown = 3;
+
+    while (countdown > 0) {
+        printf("%d\n", countdown);
+        countdown--;
+    }
+
+    printf("Joy Bangla!!");
+
+}
