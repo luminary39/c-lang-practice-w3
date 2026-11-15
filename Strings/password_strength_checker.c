@@ -2,6 +2,20 @@
 #include <string.h>
 #include <ctype.h>
 
+/*
+Later Add These Features and build a standalone project with it
+https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials
+
+Later add more features like
+1. common password detector
+2. repeated character detector
+3. sequencial pattern detection
+4. keyboard pattern detection
+5. password length analysis
+6. dictionary word detection
+7. Case-insensitive matching: Detects "Password123" even if dataset contains "password123"
+*/
+
 int i; 
 int upper = 0; 
 int lower = 0; 
